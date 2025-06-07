@@ -1,0 +1,4 @@
+cmake_minimum_required(VERSION 3.5)
+project(bulls_cows)
+
+add_executable(bulls_cows bullscows.cpp)
