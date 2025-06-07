@@ -20,7 +20,7 @@ std::pair<int,int> bullsCows(const Number &n1, const Number &n2)
       existing_digits[n2.digit(i)-'0']++;
     }
   }
-  const auto cows = std::count(existing_digits.begin(), existing_digits.end(), 2);
+  const auto cows = std::count(existing_digits.begin(), existing_digits.end(), 1);
   return {bulls, cows};
 }
 
